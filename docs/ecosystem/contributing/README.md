@@ -108,7 +108,7 @@ If you leave `NEXT` when adding a version change, automated tests for your PR wi
 
 ### Batched release
 
-Packages that receive a large number of PRs use a batched release model, both to avoid constant conflicts in CHANGELOG.md and pubspec.yaml, and to avoid constantly having new releases on pub.dev. For packages using batched release, any change that requires a CHANGELOG entry requires a new file in the package's `pending_changes/` directory. To do this without `update-release-info`, copy `template.yaml` and edit it to have the correct CHANGELOG entry and version type.
+Packages that receive a large number of PRs use a batched release model, both to avoid constant conflicts in CHANGELOG.md and pubspec.yaml, and to avoid constantly having new releases on pub.dev. For packages using batched release, any change that requires a CHANGELOG entry requires a new file in the package's `pending_changes/` directory. To do this without `update-release-info`, copy `template.yaml` to a new file with a descriptive name in the same directory, then edit it to have the correct CHANGELOG entry and version type.
 
 ### Breaking changes
 
