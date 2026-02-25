@@ -8,7 +8,7 @@ In most cases, the easiest way to handle version and CHANGELOG updates is to use
 
 If you are not using `update-release-info`, you will need to determine whether the package you are changing uses the continuous or [batched](https://github.com/flutter/flutter/blob/master/docs/ecosystem/release/README.md#batch-release) release model, and follow the appropriate instructions below. If the package has a top-level `ci_config.yaml` setting `release:batch:true`, then it uses batched release, otherwise it defaults to continuous release.
 
-*The repository CI errs on the side of false positives, so will sometimes flag a PR as needing a CHANGELOG entry even if the change is not relevant to clients. If a Flutter team member feels that the changes in a PR would not be relevant to package clients, they can leave a comment explaining why, and add the `override: no changelog needed` label can to skip this check.*
+*The repository CI errs on the side of false positives, so will sometimes flag a PR as needing a CHANGELOG entry even if the change is not relevant to clients. If a Flutter team member feels that the changes in a PR would not be relevant to package clients, they can leave a comment explaining why, and add the `override: no changelog needed` label to skip this check.*
 
 ### CHANGELOG style
 
